@@ -1,0 +1,33 @@
+- Chi-cuadrado
+
+COND:
+- Independencia: ¿Es una muestra aleatoria y representa < 10% de la población?
+- Obseervaciones esperadas > 5
+
+- HOMOGENEIDAD: 
+- 2 poblaciones -var dicotómica- presentan mismas proporciones en los diferentes niveles
+- de una var. categórica.
+
+- BONDAD DE AJUSTE:
+- Permite comprobr si una dist. de frecuencias OBSERVADA se asemeja a una distribución ESPERADA
+- ¿Es una muestra representativa de la población?
+
+- EJ.: Tenemos una nómima total (dist. esperada) y una muestra de ella (dicotómica)
+- para cada variable categórica (sus niveles).
+
+- INDEPENDENCIA:
+- 2 var categóricas de una misma población son independientes
+- ej: var 1: hongo comestible o venenoso (0/1)
+- var 2: forma del sombrero: campana, convedxo, nudoso, plano, etc.
+
+
+
+
+- Fisher -> independencia -> alternativa a Chi-cuadrado
+- ambas variables son dicotómicas
+
+- McNemar -> equivalente a t-test para muestras pareadas -mismos sujetos- en forma no paramétrica 
+- dos grupos.
+
+- Q de Cochran 
+- usar de forma similar a McNemar cuando hayan más de dos grupos.
