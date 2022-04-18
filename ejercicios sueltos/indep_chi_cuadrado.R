@@ -1,3 +1,4 @@
+library(RVAideMemoire)
 # A una empresa de estudios de 
 # mercado se le encargo el estudio de la elección 
 # del nombre de una nueva marca de cigarrillos. 
@@ -19,6 +20,7 @@ tabla <- as.table(rbind(viril, ridiculo, sobrio, vulgar))
 dimnames(tabla) <- list(percepcion = c('viril', 'ridiculo', 'sobrio', 'vulgar'),
                         nombres = c('alazan', 'corsario', 'zodiaco'))
 
-t <- chisq.test(tabla)$expected # Obtenemos tabla de valores esperados
+esperado <- chisq.test(tabla)$expected # Obtenemos tabla de valores esperados
 # la función chisq.test lo entrega inmediatamente
 
+print(esperado)
